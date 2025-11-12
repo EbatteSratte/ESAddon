@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "Addon Template",
+  "name": "ES Addon",
   "description": "An addon template for Meteor Client addons.",
   "authors": [
-    "seasnail"
+    "Ebatte_Sratte"
   ],
   "contact": {
     "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
@@ -14,7 +14,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.es.addon.EsAddon"
     ]
   },
   "mixins": [
